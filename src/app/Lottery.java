@@ -15,8 +15,7 @@ public class Lottery {
     private static int getWinNumber() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the winning number: ");
-        int winNum = scanner.nextInt();
-        return winNum;
+        return scanner.nextInt();
     }
 
     private static void checkLotteryTicket(int[][] lotteryTicket, int winNum, int count) {
