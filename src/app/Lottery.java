@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Lottery {
     public static void main(String[] args) {
 
-        int[][] lotteryTicket = {{31, 2, 99, 56}, {51, 87, 13, 42}, {10, 7, 84, 19}, {10, 3, 18, 23}};
+        int[][] lotteryTicket = {{31, 2, 99, 50}, {51, 87, 56, 42}, {10, 7, 84, 19}, {10, 3, 18, 23}};
         int count = 0;
         int winNum = getWinNumber();
         checkLotteryTicket(lotteryTicket, winNum, count);
